@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Gerador-de-Citacao/static/css/main.3bfdb565.css",
+    "main.js": "/Gerador-de-Citacao/static/js/main.0973004c.js",
+    "static/js/787.e4ae0a49.chunk.js": "/Gerador-de-Citacao/static/js/787.e4ae0a49.chunk.js",
+    "index.html": "/Gerador-de-Citacao/index.html",
+    "main.3bfdb565.css.map": "/Gerador-de-Citacao/static/css/main.3bfdb565.css.map",
+    "main.0973004c.js.map": "/Gerador-de-Citacao/static/js/main.0973004c.js.map",
+    "787.e4ae0a49.chunk.js.map": "/Gerador-de-Citacao/static/js/787.e4ae0a49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bfdb565.css",
+    "static/js/main.0973004c.js"
+  ]
+}
