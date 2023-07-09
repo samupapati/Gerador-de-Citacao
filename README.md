@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# freeCodeCamp - Gerador de citações aleatórias
+Esta é uma solução para o desafio do freeCodeCamp: [Build a Random Quote Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Visão geral
 
-## Available Scripts
+### O desafio
 
-In the project directory, you can run:
+Criar uma aplicação que funcione de modo semelhante ao que vemos em: [https://random-quote-machine.freecodecamp.rocks](https://random-quote-machine.freecodecamp.rocks).
 
-### `npm start`
+O código deve atender aos requisitos:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* um wrapper com o id="quote-box" correspondente.
+* dentro de #quote-box, um elemento com o id="text" correspondente.
+* dentro de #quote-box, um elemento com o id="author" correspondente.
+* dentro de #quote-box, um elemento clicável com o id="new-quote" correspondente.
+* dentro de #quote-box, um elemento clicável a com o id="tweet-quote" correspondente.
+* ao carregar pela primeira vez, exibir uma citação aleatória no elemento com id="text".
+* ao carregar pela primeira vez, exibir o autor da citação aleatória no elemento com id="author".
+* quando o botão #new-quote é clicado, buscar uma nova citação e exibi-la no elemento #text e o autor no elemento #author.
+* tweetar a citação atual ao clicar no elemento #tweet-quote a. Esse elemento a deve incluir o caminho "twitter.com/intent/tweet" no seu atributo href para tweetar a citação atual.
+* o elemento wrapper #quote-box deve ser centralizado horizontalmente.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### A solução
 
-### `npm test`
+![Solução](https://github.com/samupapati/Gerador-de-Citacao/blob/master/page.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Links
 
-### `npm run build`
+[URL do site](https://samupapati.github.io/Gerador-de-Citacao/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Feito com
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* ![React.js](https://img.shields.io/badge/-React.js-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
