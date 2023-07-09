@@ -26,6 +26,55 @@
     background-color: var(--cor-2);
 }
 
+#theme{
+    width: 60px;
+    height: 25px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#toggle-btn{
+    width: 28px;
+    height: 23px;
+    background-color: var(--cor-font-2);
+    position: absolute;
+    inset: 0;
+    left: -30px;
+    margin: auto;
+    z-index: 1;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.light-active{
+    left: 30px !important;
+}
+
+.theme-icon{
+    width: 30px;
+    height: 25px;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-size: 80%;
+    z-index: 2;
+    cursor: pointer;
+    background-position: center bottom;
+}
+
+#icon-light{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1146/1146795.png');
+}
+
+#icon-dark{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/7549/7549207.png');
+}
+
 #quote-box{
     width: 100%;
     max-width: 800px;
